@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <section class="container">
+    <form name="login" class="form">
+      <span class="form__title">Login</span>
+      <div class="form__log">
+        <img src="./img/logoLogin.png" alt="Logo">
+      </div>
+      <input class="form__email" type="email" name="email" value="" placeholder="Correo electrónico">
+      <input class="form__password" type="password" name="password" value="" placeholder="Contraseña">
+      <p class="form__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores praesentium corporis obcaecati blanditiis suscipit voluptatum, tempora cum sed necessitatibus, libero animi aspernatur, nobis aperiam magnam totam nostrum nulla molestias rerum.</p>
+      <button type="button" class="button" name="button" target="_parent" onclick="userLogin()"><span>Ingresar</span></button>
+      <div class="login">
+        <span class="login__a--reg">¿No tienes una cuenta?.</span><a class="login__a--reg" id="register" href="#">Registrate</a>
+      </div>
+    </form>
+  </section>
+  <script src="./js/db.js"></script>
+  <script src="./js/login.js"></script>
+</body>
+</html>

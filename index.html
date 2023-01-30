@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandwichería momento</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href='https://css.gg/instagram.css' rel='stylesheet'>
+    <link href='https://css.gg/twitter.css' rel='stylesheet'>
+    <link href='https://css.gg/facebook.css' rel='stylesheet'>
+    <link href='https://css.gg/mail.css' rel='stylesheet'> 
+    <link href='https://css.gg/pin.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <div class="header__noNav">
+            <!-- <div class="header__tel">
+                <img src="#" alt="Tel">
+            </div> -->
+            <div class="header__log">
+                <img src="./img/logo.png" alt="Log">
+            </div>
+            <div class="header__login login">
+                <a href="#" class="login__a" onclick="signOff()">
+                    LOG OUT
+                </a>
+                <a href="#" class="login__a">
+                    CONTACTOS
+                </a>
+            </div>
+            <button type="button" id="button" class="header__bar">
+                <div class="header__lines">
+                    <div class="header__line"></div>
+                    <div class="header__line"></div>
+                    <div class="header__line header__line--final"></div>
+                </div>
+                <div class="header__cross">
+                    <div id="header__line" class="header__xline"></div>
+                    <div id="header__line" class="header__xline"></div>
+                </div>
+            </button>
+        </div>
+        <nav class="header__nav nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="#" class="nav__a nav__a--active">Home</a></li>
+                <li class="nav__li"><a href="#" class="nav__a">Servicios</a></li>
+                <li class="nav__li"><a href="#" class="nav__a">Menú</a></li>
+                <li class="nav__li"><a href="#" class="nav__a">Galería</a></li>
+                <li class="nav__li"><a href="#" class="nav__a">Gift Card</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main" class="main">
+        <section class="main__section">
+            <section class="carrousel">
+                <div class="carrousel__items">
+                    <div class="carrousel__item">
+                        <div class="carrousel__info">
+                            <h2 class="carrousel__title">Example #1</h2>
+                            <p class="carrousel__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam nulla earum deleniti aspernatur aliquid fuga provident non laudantium similique voluptatem mollitia, illo, voluptatum et culpa accusantium quas. Suscipit, iusto aliquid.</p>
+                        </div>
+                        <img src="./img/CarrouselImgI.png" alt="img1" class="carrousel__img">
+                    </div>
+                    <div class="carrousel__item">
+                        <div class="carrousel__info">
+                            <h2 class="carrousel__title">Example #2</h2>
+                            <p class="carrousel__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam nulla earum deleniti aspernatur aliquid fuga provident non laudantium similique voluptatem mollitia, illo, voluptatum et culpa accusantium quas. Suscipit, iusto aliquid.</p>
+                        </div>
+                        <img src="./img/CarrouselImgII.jpg" alt="img2" class="carrousel__img">
+                    </div>
+                    <div class="carrousel__item">
+                        <div class="carrousel__info">
+                            <h2 class="carrousel__title">Example #3</h2>
+                            <p class="carrousel__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam nulla earum deleniti aspernatur aliquid fuga provident non laudantium similique voluptatem mollitia, illo, voluptatum et culpa accusantium quas. Suscipit, iusto aliquid.</p>
+                        </div>
+                        <img src="./img/CarrouselImgIII.jpg" alt="img3" class="carrousel__img">
+                    </div>
+                    <ul class="carrousel__dots">
+                        <li id="dot1" class="carrousel__dot"></li>
+                        <li id="dot2" class="carrousel__dot"></li>
+                        <li id="dot3" class="carrousel__dot"></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section__cards">
+                <h1 class="cards__title">Nuestros platos</h1>
+                <section class="cards">
+                    <a class="card">
+                        <img src="./img/card__food1.png" alt="hamburguer_with_frenchfries" class="card__imgFood"></img>
+                        <figure class="card__img"></figure>
+                        <div class="card__inf">
+                            <h2 class="card__text card__title">Example #1</h2>
+                            <h1 class="card__text card__price">$600.00</h1>
+                            <p class="card__text card__desc">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <button type="button" class="button button--card">COMPRAR</button>
+                    </a>
+                    <a class="card">
+                        <img src="./img/card__food1.png" alt="hamburguer_with_frenchfries" class="card__imgFood"></img>
+                        <figure class="card__img"></figure>
+                        <div class="card__inf">
+                            <h2 class="card__text card__title">Example #2</h2>
+                            <h1 class="card__text card__price">$1200.00</h1>
+                            <p class="card__text card__desc">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                        <button type="button" class="button button--card">COMPRAR</button>   
+                    </a>
+                    <a class="card">
+                        <img src="./img/card__food1.png" alt="hamburguer_with_frenchfries" class="card__imgFood"></img>
+                        <figure class="card__img"></figure>
+                        <div class="card__inf">
+                            <h2 class="card__text card__title">Example #3</h2>
+                            <h1 class="card__text card__price">$970.00</h1>
+                            <p class="card__text card__desc">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <button type="button" class="button button--card">COMPRAR</button>
+                    </a>
+                </section>
+            </section>
+            <section class="section__cards">
+                <h1 class="cards__title">Nuestros clientes</h1>
+            </section>
+            <section class="customerOpinions">
+                <div class="opinion">
+                    <div class="opinion__stars">
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star"></figure>
+                    </div>
+                    <span class="opinion__title">"Un hermoso lugar"</span>
+                    <p class="opinion__desc">"Un ambiente muy agradable de estar y la comida muy rica."</p>
+                </div>
+                <div class="opinion">
+                    <div class="opinion__stars">
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star opinion__star--no"></figure>
+                    </div>
+                    <span class="opinion__title">"Excelente"</span>
+                    <p class="opinion__desc">"Buen servicio. La comida demasiado rica y a un buen precio."</p>
+                </div>
+                <div class="opinion">
+                    <div class="opinion__stars">
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star opinion__star--no"></figure>
+                    </div>
+                    <span class="opinion__title">"Excelente"</span>
+                    <p class="opinion__desc">"Me encantó el servicio, nos atendendieron muy rápido y no esperamos casi nada por la comida. Muy recomendado."</p>
+                </div>
+                <div class="opinion">
+                    <div class="opinion__stars">
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star"></figure>
+                        <figure class="opinion__star"></figure>
+                    </div>
+                    <span class="opinion__title">"Como siempre, buen servicio!"</span>
+                    <p class="opinion__desc">"Llevo mucho tiempo yendo al bar. La atención y la comida nunca decepcionan."</p>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__container">
+            <img src="./img/logoLogin.png" alt="log" class="footer__item footer__log"></img>
+            <section class="footer__item footer__about">
+                <h2 class="footer__title"> Sobre Momentos</h2>
+                <p class="footer__p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptas.
+                </p>
+                <div class="footer__socialMedia">
+                    <div class="footer__icon">
+                        <i class="gg-facebook"></i>
+                    </div>
+                    <div class="footer__icon">
+                        <i class="gg-instagram"></i>
+                    </div>
+                    <div class="footer__icon">
+                        <i class="gg-twitter"></i>
+                    </div>
+                </div>
+            </section>
+            <section class="footer__item footer__contacts">
+                <h2 class="footer__title">Contactos</h2>
+                <div class="footer__contactItem">
+                    <div class="footer__icon">
+                        <i class="gg-mail"></i>
+                    </div>
+                    <p class="footer__p">mail@support.com</p>
+                </div>
+                <div class="footer__contactItem">
+                    <div class="footer__icon">
+                        <i class="gg-pin"></i>
+                    </div>
+                    <p class="footer__p">Vista Avenue 1265</p>
+                </div>
+            </section>
+            <section class="footer__item footer__schedule">
+                <h2 class="footer__title">Horarios de apertura</h2>
+                <p class="footer__p footer__p--bold">Lunes a Viernes</p>
+                <p class="footer__p">7:30 a 14:00 y 8:30 a 3:00</p>
+                <p class="footer__p footer__p--bold">Sábado y Domingo</p>
+                <p class="footer__p">8:00 a 13:30 y 9:00 a 2:30</p>
+            </section>
+        </section>
+    </footer>
+    <script src="./js/db.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
